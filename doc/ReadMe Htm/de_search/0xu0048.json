@@ -1,0 +1,7 @@
+[
+	{ "s": "HDD", "p": [4] },
+	{ "s": "HTTPS", "p": [6, 30, 7] },
+	{ "s": "HTTPS://DOCS.DOCKER.COM", "p": [6] },
+	{ "s": "HTTPS://DOCS.DOCKER.COM/GET-STARTED/08_USING_COMPOSE", "p": [6] },
+	{ "s": "HTTPS://GITHUB.COM/DEANRIOT/TASKMANAGER", "p": [30, 7] }
+]
