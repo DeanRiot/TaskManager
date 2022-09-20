@@ -26,11 +26,11 @@ const router = createBrowserRouter([
     element: <SingInPage/>,
   },
   {
-    path: "/login",
+    path: "/",
     element: <LogInPage/>,
   },
   {
-    path: "/",
+    path: "/boards",
     element: <Boards/>,
   },
   {

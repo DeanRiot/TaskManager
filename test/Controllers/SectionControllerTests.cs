@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace TaskManagerTests
+namespace TaskManagerTests.ControllersTests
 {
-    public class Tests
+    public class SectionControllerTests
     {
         [SetUp]
         public void Setup()

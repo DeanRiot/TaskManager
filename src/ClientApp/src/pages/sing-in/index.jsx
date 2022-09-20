@@ -45,7 +45,7 @@ export default () => {
                                     </Form.Group>
                                     <Form.Group className="mb-3 text-center">
                                         <Form.Text>
-                                            Или <Link to="/login">войти</Link>
+                                            Или <Link to="/">войти</Link>
                                         </Form.Text>
                                     </Form.Group>
                                 </Form>
