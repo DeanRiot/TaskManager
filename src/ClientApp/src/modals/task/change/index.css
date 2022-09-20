@@ -1,0 +1,21 @@
+.datepicker-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.datepicker-wrapper > .react-datepicker-wrapper{
+    width: auto;
+}
+
+.datepciker-input{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.comments-section{
+    height: 150px;
+    background-color: rgb(235, 236, 240);
+    padding: 10px;
+    overflow-y: scroll;
+}

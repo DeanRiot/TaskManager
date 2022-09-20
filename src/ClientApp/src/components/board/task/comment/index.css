@@ -1,0 +1,23 @@
+.comment{
+    display: flex;
+    align-items: end;
+}
+
+.comment-text{
+    padding: 0px 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.comment-text > p {
+    margin-bottom: 0 !important;
+    white-space: normal;
+    word-break: break-all;
+    max-width: 350px;
+}
+
+.comment > span {
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+}

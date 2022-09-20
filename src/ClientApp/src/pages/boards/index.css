@@ -1,0 +1,10 @@
+.add-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border: 5px;
+    border-style: dashed;
+    border-color: rgba(0,0,0,0.1);
+    height: 78px;
+}

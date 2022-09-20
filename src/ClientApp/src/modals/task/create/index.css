@@ -1,0 +1,14 @@
+.datepicker-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.datepicker-wrapper > .react-datepicker-wrapper{
+    width: auto;
+}
+
+.datepciker-input{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}

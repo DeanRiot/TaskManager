@@ -1,0 +1,12 @@
+.task-responsibility{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(13,110,253);
+}

@@ -1,0 +1,13 @@
+.log-in-container{
+    width: 340px;
+    /* height: 400px; */
+    margin: auto;
+    margin-top: calc(50vh - 200px);
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.log-in-container > h3{
+    text-align: center;
+    margin-bottom: 30px;
+}

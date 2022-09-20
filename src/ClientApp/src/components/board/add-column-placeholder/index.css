@@ -1,0 +1,17 @@
+.board-column-new {
+    height: 50px;
+    width: 300px;
+    min-width: 300px;
+    text-align: center;
+    font-weight: 700;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-column-new:hover{
+    opacity: 0.6;
+}

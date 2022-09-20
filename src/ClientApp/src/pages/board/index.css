@@ -1,0 +1,8 @@
+.board-columns-wrapper{
+    overflow-x: scroll;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    height: calc(100vh - 56px);
+}

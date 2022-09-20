@@ -1,0 +1,13 @@
+.sing-in-container{
+    width: 340px;
+    min-height: 400px;
+    margin: auto;
+    margin-top: calc(50vh - 310px);
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.sing-in-container > h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
