@@ -65,7 +65,7 @@ namespace TaskManager
 
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = "ClientApp";
+                spa.Options.SourcePath = "Frontend";
 
                 if (env.IsDevelopment())
                 {
