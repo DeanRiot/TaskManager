@@ -9,7 +9,6 @@ namespace TaskManager.Model.Repository.EntityFramework.Context
         public virtual DbSet<Auth> Auth { get; set; }
         public virtual DbSet<Board> Board { get; set; }
         public virtual DbSet<Comment> Comment { get; set; }
-        public virtual DbSet<Responsibility> Responsibility { get; set; }
         public virtual DbSet<Section> Section { get; set; }
         public virtual DbSet<Task> Task { get; set; }
         public virtual DbSet<Track> Track { get; set; }

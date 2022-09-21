@@ -15,13 +15,11 @@ namespace TaskManager.Api.Controllers
         {
             _logger = logger;
             _facade = facade;
-        } 
-
-
-        [HttpGet]
-        public void Get()
-        {
-
         }
+
+        [HttpPost]
+        public void Post(Model.Data.Board board) => _facade.CreateColumn(board);
+        [HttpPut]
+        public void Put(Model.Data.Column column) => _facade.UpdateColumn(column);
     }
 }

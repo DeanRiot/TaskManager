@@ -1,4 +1,4 @@
-﻿namespace TaskManager.Model.Output
+﻿namespace TaskManager.Model.Data
 {
 #nullable enable
 public class User

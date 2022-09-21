@@ -1,8 +1,8 @@
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace TaskManagerTests.ControllersTests
+namespace TaskManagerTests.Behaviors
 {
-    public class BoardControllerTests
+    internal class ColumnBehaviorTests
     {
         [SetUp]
         public void Setup()
@@ -35,6 +35,18 @@ namespace TaskManagerTests.ControllersTests
 
         [Test]
         public void Get_Return_Empty_If_Id_Not_Exists()
+        {
+            Assert.Pass();
+        }
+
+        [Test]
+        public void Update_Work_Correct()
+        {
+            Assert.Pass();
+        }
+
+        [Test]
+        public void Update_Not_Create_New_Column()
         {
             Assert.Pass();
         }

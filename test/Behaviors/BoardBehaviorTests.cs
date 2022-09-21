@@ -1,8 +1,8 @@
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace TaskManagerTests.ControllersTests
+namespace TaskManagerTests.Behaviors
 {
-    public class BoardControllerTests
+    internal class RepostioryTests
     {
         [SetUp]
         public void Setup()

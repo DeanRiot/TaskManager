@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TaskManager.Model.Output
+namespace TaskManager.Model.Data
 {
     public class Task
     {

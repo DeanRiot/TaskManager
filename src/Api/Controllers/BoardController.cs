@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 using TaskManager.Controllers.Board;
 
 namespace TaskManager.Api.Controllers
@@ -17,11 +19,23 @@ namespace TaskManager.Api.Controllers
             _facade = facade;
         }
 
-
         [HttpGet]
-        public void Get()
-        {
+        public IEnumerable<Model.Data.Board> Get(uint? id) => _facade.Get(id);
 
+        [HttpPost]
+        public uint? Post(Model.Data.Board board)
+        {
+            var id = _facade.Create(board);
+            if (id is null)
+            {
+                Response.StatusCode = 201;
+                return null;
+            }
+            return id;
         }
+        
+
+        [HttpPut]
+        public void Put(Model.Data.Board board) => _facade.Update(board);
     }
 }

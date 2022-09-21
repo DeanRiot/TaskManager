@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace TaskManager.Model.Output
+namespace TaskManager.Model.Data
 {
+    #nullable enable
     public class Board
     {
         public Board (uint id, string name, string description, string color)
@@ -12,9 +13,9 @@ namespace TaskManager.Model.Output
             this.color = color;
         }
         public uint id { get; set; }
-        public string name { get; set; }
-        public string description { get; set; }
-        public string color { get; set; }
-        public List<Column> columns { get; set; }
+        public string? name { get; set; }
+        public string? description { get; set; }
+        public string? color { get; set; }
+        public List<Column>? columns { get; set; }
     }
 }

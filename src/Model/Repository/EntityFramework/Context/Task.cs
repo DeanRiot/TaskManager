@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TaskManager.Model.Repository.EntityFramework.Context
@@ -14,6 +15,7 @@ namespace TaskManager.Model.Repository.EntityFramework.Context
         public Section Section { get; set; }
         public uint TrackId { get; set; }
         public Track Track { get; set; }
+        public List<User> responsibility { get; set; }
 
     }
 }
